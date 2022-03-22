@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>930.4,1384</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>757.6,1132.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>init_get_file_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="30">
@@ -71,17 +71,12 @@
       <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="init_get_file" sap:VirtualizedContainerService.HintSize="524.8,1319.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="init_get_file" sap:VirtualizedContainerService.HintSize="475.2,1068" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="All_col" />
-      <Variable x:TypeArguments="s:String[]" Name="New_col_name">
-        <Variable.Default>
-          <mva:VisualBasicValue x:TypeArguments="s:String[]" ExpressionText="{}{&quot;No&quot;,&quot;file_name&quot;,&quot;PO_file&quot;,&quot;PO_OCR&quot;,&quot;OCR_acc&quot;,&quot;PO_item_file&quot;,&quot;PO_Item_OCR&quot;,&quot;PO_item_acc&quot;,&quot;vendor_code_file&quot;,&quot;vendor_code_OCR&quot;,&quot;vendor_code_acc&quot;,&quot;vendor_name_file&quot;,&quot;vendor_name_OCR&quot;,&quot;vendor_name_acc&quot;,&quot;item_text_file&quot;,&quot;item_text_OCR&quot;,&quot;item_text_acc&quot;,&quot;QTY_file&quot;,&quot;QTY_OCR&quot;,&quot;QTY_acc&quot;,&quot;UNIT_file&quot;,&quot;UNIT_OCR&quot;,&quot;UNIT_acc&quot;,&quot;Price_unit_file&quot;,&quot;Price_unit_OCR&quot;,&quot;Price_unit_acc&quot;,&quot;amount_file&quot;,&quot;amount_OCR&quot;,&quot;amount_acc&quot;,&quot;DDate_file&quot;,&quot;DDate_OCR&quot;,&quot;DDate_acc&quot;,&quot;Sign_file&quot;,&quot;Sign_OCR&quot;,&quot;Sign_acc&quot;,&quot;SDate_file&quot;,&quot;SDate_OCR&quot;,&quot;SDate_acc&quot;}" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="s:String[]" Default="[{&quot;No&quot;,&quot;file_name&quot;,&quot;PO_file&quot;,&quot;PO_OCR&quot;,&quot;OCR_acc&quot;,&quot;PO_item_file&quot;,&quot;PO_Item_OCR&quot;,&quot;PO_item_acc&quot;,&quot;vendor_code_file&quot;,&quot;vendor_code_OCR&quot;,&quot;vendor_code_acc&quot;,&quot;vendor_name_file&quot;,&quot;vendor_name_OCR&quot;,&quot;vendor_name_acc&quot;,&quot;item_text_file&quot;,&quot;item_text_OCR&quot;,&quot;item_text_acc&quot;,&quot;QTY_file&quot;,&quot;QTY_OCR&quot;,&quot;QTY_acc&quot;,&quot;UNIT_file&quot;,&quot;UNIT_OCR&quot;,&quot;UNIT_acc&quot;,&quot;Price_unit_file&quot;,&quot;Price_unit_OCR&quot;,&quot;Price_unit_acc&quot;,&quot;amount_file&quot;,&quot;amount_OCR&quot;,&quot;amount_acc&quot;,&quot;DDate_file&quot;,&quot;DDate_OCR&quot;,&quot;DDate_acc&quot;,&quot;Sign_file&quot;,&quot;Sign_OCR&quot;,&quot;Sign_acc&quot;,&quot;SDate_file&quot;,&quot;SDate_OCR&quot;,&quot;SDate_acc&quot;}]" Name="New_col_name" />
       <Variable x:TypeArguments="x:Int32" Name="Index" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
@@ -89,7 +84,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="483.2,262.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" Visible="False" WorkbookPath="[in_Template_FilePath]">
+    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="433.6,262.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" Visible="False" WorkbookPath="[in_Template_FilePath]">
       <ui:ExcelApplicationScope.Body>
         <ActivityAction x:TypeArguments="ui:WorkbookApplication">
           <ActivityAction.Argument>
@@ -101,12 +96,12 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ExcelReadRange AddHeaders="True" DataTable="[out_dt_Template]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="ExcelReadRange_1" Range="A3" SheetName="Sheet1" />
+            <ui:ExcelReadRange AddHeaders="False" DataTable="[out_dt_Template]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="ExcelReadRange_1" Range="A3" SheetName="Test_OCR" />
           </Sequence>
         </ActivityAction>
       </ui:ExcelApplicationScope.Body>
     </ui:ExcelApplicationScope>
-    <Assign sap:VirtualizedContainerService.HintSize="483.2,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap:VirtualizedContainerService.HintSize="433.6,60" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:Int32">[All_col]</OutArgument>
       </Assign.To>
@@ -114,28 +109,44 @@
         <InArgument x:TypeArguments="x:Int32">[out_dt_Template.ColumnCount]</InArgument>
       </Assign.Value>
     </Assign>
-    <If Condition="[New_col_name.Count &lt;&gt; All_col]" sap:VirtualizedContainerService.HintSize="483.2,304" sap2010:WorkflowViewState.IdRef="If_1">
-      <If.Then>
-        <Sequence sap:VirtualizedContainerService.HintSize="241.6,115.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="433.6,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="524.8,396.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Throw Exception="[New Exception(&quot;columns ไม่เท่ากัน&quot;)]" sap:VirtualizedContainerService.HintSize="200,22.4" sap2010:WorkflowViewState.IdRef="Throw_1" />
+          <If Condition="[New_col_name.Count &lt;&gt; All_col]" sap:VirtualizedContainerService.HintSize="483.2,304" sap2010:WorkflowViewState.IdRef="If_1">
+            <If.Then>
+              <Sequence sap:VirtualizedContainerService.HintSize="241.6,115.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <Throw Exception="[New Exception(&quot;columns ไม่เท่ากัน&quot;)]" sap:VirtualizedContainerService.HintSize="200,22.4" sap2010:WorkflowViewState.IdRef="Throw_1" />
+              </Sequence>
+            </If.Then>
+            <If.Else>
+              <Sequence sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Sequence>
+            </If.Else>
+          </If>
         </Sequence>
-      </If.Then>
-      <If.Else>
-        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_6">
-          <sap:WorkflowViewStateService.ViewState>
-            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-            </scg:Dictionary>
-          </sap:WorkflowViewStateService.ViewState>
-        </Sequence>
-      </If.Else>
-    </If>
-    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="[Index]" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="483.2,277.6" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[New_col_name]">
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="[Index]" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="433.6,277.6" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[New_col_name]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="x:String">
           <ActivityAction.Argument>
@@ -159,7 +170,7 @@
         </ActivityAction>
       </ui:ForEach.Body>
     </ui:ForEach>
-    <ui:FilterDataTable DataTable="[out_dt_Template]" DisplayName="Filter Data Table" FilterRowsMode="Remove" sap:VirtualizedContainerService.HintSize="483.2,162.4" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[out_dt_Template]" SelectColumnsMode="Keep">
+    <ui:FilterDataTable DataTable="[out_dt_Template]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="433.6,162.4" sap2010:WorkflowViewState.IdRef="FilterDataTable_1" OutputDataTable="[out_dt_Template]" SelectColumnsMode="Keep">
       <ui:FilterDataTable.Filters>
         <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
           <ui:FilterOperationArgument Operand="{x:Null}" BooleanOperator="And" Operator="EMPTY">
