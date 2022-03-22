@@ -7,34 +7,34 @@ Tel. : +856 74 266 121-124
 Fax : +856 74 266 120
 PURCHASE ORDER
 Vendor Code :
-210669
-PO NO.
-3700022401
-:
-Vendor : Max. Drill Ltd., Part
+110912
+PO NO. :
+3500004754
+Vendor : Bangkok Insurance (Lao) Co., Ltd
 PO Date :
 02/02/2022
 Rev.0
-Address: 505/7 Soi Phaholyothin 48, Phaholyothin
-Requested by : PM Drilling
-Bangkok 10220
-Mining
+Address: Unit 18 Phonsavanh Neua Village, Sisattanak
+Requested by : Piyaratch Asa
+Vientiane Capital
+Finance and Accounting
 TAX ID:
-0103539039286
-Ref. Quotation QM.009/2022
+856418712900
+Ref. Quotation Invoice No: 303
 Tel :
-025522528
-Fax:
-025522530
+021417283
+Fax :
+021316503
 Ref. Contract
+N/A
 Email :
-maxdrill@cscoms.com
-Purpose :
+thassada.p@bkilao.com
+Purpose : PDBI 250 xs 1,250 MUSD layer - Period
 Attn :
-Mr.Chalerm Sirinapapant/MD
+Mr. Thassada Phimmajak
+31 Dec 2021 to 1 Dec 2022 (Policy no. 822-01551-6)
 Item
-PR. /ITEM
-Description
+PR./ITEM - Description
 Qty.
 Unit
 Price/Unit
@@ -42,65 +42,135 @@ Amount
 Delivery
 Date
 1
-2300007988/10 2000004372 Packing Set
-6.
-SET
-4,270.00
-25,620.00
-18/03/2022
-Part#150045-4 (6 Each/set)
+2200005935/10 PDBI top-up (2) - Power
+AU
+80,555,155,65
+708,646.6531/12/2022
+Plant
+2200005935/20 PDBI top-up (2)
+- Support
+31/12/2022
+2
+1
+AU
+1,402,884.92
+12,341.23
+function
+3
+2200005935/30 PDBI top-up (2) - Waste
+1.
+AU
+5,325,426.32
+46,847.97
+31/12/2022
+4
+2200005935/40 PDBI top-up (2)
+- Сoal
+1.
+AU
+5,011,622.92
+44,087.43
+31/12/2022
+2200005935/50 Register fee
+1
+AU
+1,012.83
+8.91
+31/12/2022
 Amount in word
 Total Amount
-25,620.00 THB
-TWENTY-FIVE THOUSAND SIX HUNDRED TWENTY BAHT ONLY
+811,932.19 USD
+EIGHT HUNDRED SIXTY-EIGIIT TIIOUSAND SEVEN IIUNDRED
 Discount
+SIXTY-SIX USD AND EIGHTY-THREE
 Vat
+56,834.64 USD
 Net Amount
-25,620.00 THB
+868,766.83 USD
 Conditions: 1. Please sign receive and return Procurement.
 2. Please attach the copy of Purchase Order (PO) with all shipping document/invoice.
-3. This purchase order shall be legally binding to the vendor upon the signature of the PO
+3. This purchase order shall be lega1ly hinding to the vendor upon the signature of the PO
 receiver. The vendor shall perform its obligatory in accordance with all previous provided by
 the company.
-4. Delivery Address : To be advise; Bangkok Province, Thailand
-5. Delivery Term : EXW Bangkok, TH
-6. Term of payment : Credit 30 days after receive goods/service and complete invoice
-7. Commencement Date and Completion Date:
-8. Remark : N/A
+4. Delivery Address
+: Mining Warehouse; Honysa DistricL, Xayabouly Province, Lao PDR.
+5. Delivery Term : N/A
+6. Term of paynent : Credil 30 days after receive youds/service and cOmplele invoice
+Payment cundltlon:
+a) If an invoice is subuilled lu the Eupluyer dutiny lhe dale uf 1 - 15 in any month, Llhe puyment
+of such invoice will be paid on the date of 10 of the following months.
+h) If an invoice is suhmitted to the Employer during the date of 16 - 31 in any month, the
+payment of such invoice will be paid on the date of 25 of the following months.
+7. Commencenient Dale and Cuuplelion Dale:
+7.1 Commencement Date: 31/12/2021
+7.2 Completion Date: 01/12/2022
+. Remark.
+TILIS IS A CUMPUTER GENERATED DOCUMENT AND APPLY SIGNATURE WHICH STORE IN SYSTEM.
+Page 1/2
+HPC-PRO- FO-002 v.06, 05/12/2021Hongsa Power Co., Ltd
+NNN Building 4th Floor/Room No. D5, Boulichan Road,
+Phonsinouan Village, Sisattanark District
+Vientiane Capital, Lao PDR
+TAX ID: 542762401-9-00
+Tel.
++856 74 266 121-124
+Fax : +856 74 266 120
+PURCHASE ORDER
+Vendor Code :
+110912
+PO NO. :
+3500004754
+Vendor : Bangkok Insurance (Lao) Co.,Ltd
+PO Date :
+02/02/2022
+Rev.0
+Address: Unit 18 Phonsavanh Neua Village, Sisattanak
+Requested by : Piyaratch Asa
+Vientiane Capital
+Finance and Accounting
+ТАХ ID:
+856418712900
+Ref. Quotation Invoice No: 303
+Tel :
+021417283
+Fax :
+021316503
+Ref. Contract
+N/A
+Email
+thassada.p@bkilao.com
+Purpose : PDBI 250 xs 1,250 MUSD layer - Period
+Attn
+Mr. Thassada Phimmajak
+31 Dec 2021 to 1 Dec 2022 (Policy no. 822-01551-6)
 9. General conditions attached form part of the purchase order and contain provisions that
 materially affect the parties obligations. Please read carefully.
 If you disagree with the conditions, please inform us within 3 days; otherwise, it will be
 deemed that you have accepted the terms and conditions.
-รานจำกัด)
+Tssuerl hy:
 Reviewed by :
 Approved by :
 Approved by
-Received Po by
-Issued by:
-INIEDPARTS
-PARTNES
-Naruemen K.
-Vordlean Usaeleul
+Receſve
+PO byy:
+Vorlean Unulaul
+จำกัด
+Bapokok Insurance Lao)
+(Aneúluck P. )
 (Attachai T.)
+(......N
+(Kathuth C.)
+3 FЕВ 2022
 (Visakorn U.)
-(..
-(Phannipa K.)
-.. FEB, 2022
-( Naruemon K. )
 2 FEB 2022
 2 FEB 2022
 3 FEB 2022
-2 FEB 2022
-Division Manager
-CS
-Director
-Vendor's Seal
 Procurement Staff
-Eq. Div. Manager
+Division Manager
+Cs - Director
+Managing Director
+Vendor's Seal
 (if any)
-Page 1/1
 THIS IS A COMPUTER GENERATED DOCUMENT AND APPLY SIGNATURE WHICH STORE IN SYSTEM.
-HPC-PRO-F0-002 v.06, 05/12/2021
-DRLL
-MAX.
-ดริaล์
+Page 2/2
+HPC- PRO-FO-002 v.06, 05/12/2021
